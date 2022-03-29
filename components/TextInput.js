@@ -7,7 +7,7 @@ export const TextInputComponent = () => {
 
   return (
     <View style={styles.container}>
-      <Text>{text}</Text>
+      <Text style={styles.font}>{text}</Text>
       <TextInput
         style={styles.input}
         onChangeText={onChangeText}

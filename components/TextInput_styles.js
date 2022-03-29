@@ -9,10 +9,16 @@ export const styles = StyleSheet.create({
     padding: 10,
   },
   container: {
-    height: 300,
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+
+  container2: {
+    backgroundColor: 'gray',
+  },
+  font: {
+    fontSize: 30,
   },
 });
